@@ -114,7 +114,6 @@ class Agent:
         self.status = self.world.START
         visited = []
         while (not self.status == self.world.GOAL):
-            #action = self.decideActionEpsilonGreedy()
             action = self.decideActionSoftmax()
             if action == None:
                 break
