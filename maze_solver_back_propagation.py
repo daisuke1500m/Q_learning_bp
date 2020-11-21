@@ -28,7 +28,7 @@ class World:
             'W      W W',
             'W WWW    W',
             'W W      W',
-            'W WWWWW  W',
+            'W W WWWW W',
             'W W      W',
             'W W  WWWWW',
             'W       GW',
